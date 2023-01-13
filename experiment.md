@@ -8,7 +8,7 @@
   - BETTER mAP
 
 2. Training with bigger model - exp 8
-  - img: 800x800 (unable to load into GPU memory)
+  - img: 800x800 (unable to load into GPU memory since 960x960 is too big)
   - batch: 16
   - model: yolov5x.yaml
   - hyp: no-augmentation
