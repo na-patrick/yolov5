@@ -16,3 +16,4 @@
   - `python3 train.py --img 800 --batch 16 --epoch 30000 --weight '' --cfg training/CE1-UPR/yolov5x.yaml --data training/CE1-UPR/training.yaml --hyp training/CE1-UPR/aug.yaml --save-period 100 --cache ram`
 
 3. Training with augmentation based on exp 3 - exp 4
+  - WARNING ⚠️ NMS time limit 2.100s exceeded
