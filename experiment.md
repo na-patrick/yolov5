@@ -17,3 +17,6 @@
 
 3. Training with augmentation based on exp 3 - exp 4
   - WARNING ⚠️ NMS time limit 2.100s exceeded
+
+4. Training #3 result was the best -> No early stopping & continuous training based on exp 4- exp 5
+5. 
