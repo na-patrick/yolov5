@@ -3,5 +3,5 @@
 3. Install Cuda Version 11.3
 4. Install CuDNN Version 8.2.0
 5. Setup PATH and LD_LIBRARY_PATH
-6. sudo apt install -no-cache-dir torch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
+6. install pytorch using pip according to the homepage
 7. 
