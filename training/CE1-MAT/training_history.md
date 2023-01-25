@@ -105,7 +105,7 @@ YOLOv5l summary: 267 layers, 46156743 parameters, 0 gradients, 107.8 GFLOPs
 Results saved to runs/train/exp
 ```
 
-# Exporting training result to ONNX
+# 2. Exporting training result to ONNX
 ```sh
 python3 export.py --weights runs/train/exp4/weights/*.pt --device 0 --include onnx --data training/CE1-UPR/training.yaml --img 960 --opset 15
 ```
