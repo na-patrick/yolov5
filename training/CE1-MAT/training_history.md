@@ -104,3 +104,8 @@ YOLOv5l summary: 267 layers, 46156743 parameters, 0 gradients, 107.8 GFLOPs
      T/VERSE HOOK HOLE        215        350          1          1      0.995      0.837
 Results saved to runs/train/exp
 ```
+
+# Exporting training result to ONNX
+```sh
+python3 export.py --weights runs/train/exp4/weights/*.pt --device 0 --include onnx --data training/CE1-UPR/training.yaml --img 960 --opset 15
+```
