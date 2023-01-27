@@ -109,6 +109,7 @@ Results saved to runs/train/exp
 ```sh
 python3 train.py --img 960 --batch 16 --epoch 20000 --weight '' --cfg training/CE1-MAT/yolov5l.yaml --data training/CE1-MAT/training.yaml --hyp training/CE1-MAT/aug1.yaml --save-period 100 --cache ram --patience 0
 ```
+## Stopped Training since No Improvement at 2500 epoch
 
 ## Beginning of Training Log
 ```
